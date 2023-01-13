@@ -1,10 +1,16 @@
 import React from 'react';
+import Navbar from '../../Components/Navbar';
+import About from './About';
 import Hero from './Hero';
+import UpcommingEvent from './UpcommingEvent';
 
 const Home = () => {
     return (
         <div>
-           <Hero/>
+           
+          <Hero/>
+           <UpcommingEvent/>
+           <About/>
         </div>
     );
 };

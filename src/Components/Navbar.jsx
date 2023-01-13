@@ -34,8 +34,8 @@ const Navbar = () => {
         </div>
         <div className="navbar-center">
         <ul
-          className={`md:flex items-center py-8 md:py-0 bg-transparent-10    md:bg-transparent text-gray-300 text-lg md:text-gray-100 font-semibold absolute md:static left-0 md:pl-0 pl-9 w-full md:w-auto transition-all duration-500 ease-in z-10  ${
-            open ? "top-24 z-20" : "top-[-600px] "
+          className={`md:flex items-center py-8 md:py-0 bg-[#292828c2]   md:bg-transparent text-gray-300 text-lg md:text-gray-100 font-semibold absolute md:static left-0 md:pl-0 pl-9 w-full md:w-auto transition-all duration-500 ease-in z-10  ${
+            open ? "top-16 z-20" : "top-[-600px] "
           }`}
         >
           <li className="p-3 ">
